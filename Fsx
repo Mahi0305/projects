@@ -1,0 +1,51 @@
+Project Title:
+-------------
+Setup of Amazon FSx with Active Directory Integration
+
+Objective:
+----------
+To implement a scalable and secure file storage solution by integrating Amazon FSx with Active Directory.
+
+Technologies Used:
+------------------
+	1.Amazon FSx
+	2.AWS Directory Service (Active Directory)
+	3.Amazon VPC
+	4.AWS IAM
+	5.AWS CloudWatch
+
+Description:
+------------
+Executed the setup and integration of Amazon FSx with Active Directory to provide a secure and scalable file storage solution for the organization.
+
+
+Key Responsibilities:
+----------------------
+	
+I.FSx Deployment:
+-----------------
+   Deployed Amazon FSx for Windows File Server, configuring storage options to meet performance and capacity requirements.
+	
+2.Active Directory Integration:
+-------------------------------
+   Integrated FSx with AWS Directory Service (Active Directory) to utilize existing AD user and group policies for file share access.
+   Configured necessary DNS settings and network connectivity to ensure seamless integration with the Active Directory domain.
+	
+3.Security and Access Configuration:
+------------------------------------
+   Managed NTFS permissions on FSx file shares to enforce access control based on AD users and groups.
+   Implemented IAM roles and policies for administrative access to FSx and related AWS resources.
+
+4.Network Setup:
+----------------
+   Configured Amazon VPC to secure network communication between FSx and other AWS services.
+   Set up security groups and network ACLs to control access to the FSx file system.
+	
+5.Monitoring and Maintenance:
+-----------------------------
+   Set up AWS CloudWatch to monitor FSx performance and health, configuring alarms for critical metrics.
+   Ensured regular backups and data recovery mechanisms for the FSx file system.
+
+Outcome:
+--------
+Successfully established a secure, scalable file storage solution by setting up Amazon FSx with Active Directory, enhancing the organization’s data management and access control capabilities.

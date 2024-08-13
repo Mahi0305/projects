@@ -1,0 +1,48 @@
+Project Title: 
+--------------
+Setup of a Personal VPC with NAT Gateway on AWS.
+
+Objective: 
+----------
+To create a secure and isolated network environment on AWS with controlled internet access using a NAT gateway.
+
+Technologies Used:
+------------------
+	1.Amazon VPC
+	2.NAT Gateway
+	3.Internet Gateway
+	4.Subnets (Public and Private)
+	5.Route Tables
+	6.Security Groups
+
+Description:
+------------
+As part of my learning experience with AWS, I designed and set up a personal Virtual Private Cloud (VPC) with a NAT gateway to manage internet access for instances in private subnets.
+
+Key Responsibilities:
+---------------------
+	
+1.VPC Creation:
+---------------
+   Created a custom VPC to provide an isolated network environment with specific CIDR block allocation.
+
+2.Subnet Configuration:
+-----------------------
+   Configured both public and private subnets within the VPC, organizing resources based on their need for internet access.
+
+3.Internet and NAT Gateway Setup:
+---------------------------------
+   Set up an Internet Gateway to enable internet connectivity for instances in the public subnet.
+   Deployed a NAT Gateway in the public subnet to allow instances in the private subnet to initiate outbound internet traffic securely.
+	
+4.Route Tables Management:
+--------------------------
+   Configured route tables to direct traffic between the subnets, Internet Gateway, and NAT Gateway, ensuring proper routing of data.
+
+5.Security Groups and NACLs:
+----------------------------
+   Implemented Security Groups and Network ACLs to control inbound and outbound traffic, enhancing the security of the VPC.
+
+Outcome:
+--------
+Successfully created a personal VPC with a NAT gateway, demonstrating a solid understanding of networking concepts in AWS. This project helped me gain hands-on experience in designing secure and scalable network architectures.

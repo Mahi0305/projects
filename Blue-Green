@@ -1,0 +1,56 @@
+Project Title:
+--------------
+Implementation of Blue-Green Deployment Model on AWS
+
+Objective:
+----------
+To ensure zero-downtime deployment and seamless upgrades for web applications using EC2, RDS, and Elastic Beanstalk.
+
+Technologies Used:
+------------------
+	1.AWS EC2
+	2.AWS RDS
+	3.AWS Elastic Beanstalk
+	4.Amazon Route 53
+	5.AWS CloudFormation
+	6.AWS CodePipeline
+	7.AWS CodeDeploy
+
+Description:
+------------
+Implemented a robust blue-green deployment model for a web application hosted on AWS, leveraging EC2 instances, RDS for database management, and Elastic Beanstalk for 
+application deployment. The primary goal was to ensure minimal downtime and risk during application upgrades and to facilitate seamless rollback capabilities in case of deployment issues.
+
+Key Responsibilities:
+---------------------
+
+1.Architecture Design:
+----------------------
+   Designed the architecture for the blue-green deployment model, ensuring high availability, fault tolerance, and scalability.
+   Utilized AWS CloudFormation to create and manage the necessary infrastructure components.
+
+2.Deployment Strategy:
+----------------------
+   Configured two identical environments (blue and green) in Elastic Beanstalk to facilitate smooth transitions during deployments.
+   Set up EC2 instances within each environment, ensuring they were properly load-balanced and auto-scaled to handle varying traffic loads.
+   Used RDS for the database, ensuring that both environments had access to a common database instance to avoid data inconsistencies.
+
+3.Automation and Orchestration:
+-------------------------------
+   Implemented AWS CodePipeline and CodeDeploy to automate the deployment process, reducing manual intervention and the potential for errors.
+   Configured automated testing and validation steps within the pipeline to ensure the integrity and performance of the application before switching traffic.
+
+4.Traffic Routing and Management:
+---------------------------------
+   Utilized Amazon Route 53 to manage DNS routing, enabling smooth traffic switchovers between the blue and green environments.
+   Ensured proper monitoring and logging using AWS CloudWatch to track application performance and health.
+
+5.Testing and Rollback:
+-----------------------
+   Conducted comprehensive testing in the green environment to validate new application versions before routing production traffic.
+   Established rollback procedures to quickly revert to the blue environment in case of any issues, minimizing impact on end-users.
+
+Outcome:
+--------
+The implementation of the blue-green deployment model significantly improved the deployment process, reducing downtime to nearly zero and allowing for rapid and reliable 
+application updates. The project demonstrated the effectiveness of using AWS services to create a highly available and resilient deployment architecture.

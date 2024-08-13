@@ -1,0 +1,52 @@
+Project Title: 
+--------------
+Static Website Hosting on Amazon S3
+
+Objective: 
+----------
+To deploy a static website on Amazon S3 with custom domain integration and HTTPS support.
+
+Technologies Used:
+------------------
+	1.Amazon S3
+	2.Amazon CloudFront
+	3.AWS Certificate Manager (ACM)
+	4.Amazon Route 53
+
+Description:
+------------
+
+Deployed a fully functional static website using Amazon S3 as the hosting service, ensuring high availability and low-latency access for users.
+
+Key Responsibilities:
+---------------------
+
+1.Website Hosting on S3:
+------------------------
+   Configured an Amazon S3 bucket to host a static website, uploading HTML, CSS, and JavaScript files.
+   Enabled website hosting features on the S3 bucket, including setting the index and error documents for the site.
+
+2.Custom Domain and DNS Management:
+---------------------------------
+   Integrated the website with a custom domain using Amazon Route 53, managing DNS records for domain routing.
+   Configured Route 53 hosted zones to point the domain to the S3 bucket endpoint.
+
+3.Content Delivery and Security:
+------------------------------
+   Set up Amazon CloudFront as a Content Delivery Network (CDN) to distribute website content globally, reducing latency and improving load times.
+   Used AWS Certificate Manager (ACM) to issue an SSL/TLS certificate for the custom domain, enabling HTTPS for secure data transmission.
+
+4.Performance Optimization:
+-------------------------
+   Configured CloudFront caching policies to optimize content delivery and reduce server load.
+   Implemented versioning in S3 to manage updates and rollbacks efficiently.
+
+5.Monitoring and Maintenance:
+---------------------------
+   Enabled S3 bucket logging to track access requests and monitor website traffic.
+   Used CloudFront monitoring tools to track website performance and user access patterns.
+
+Outcome:
+--------
+Successfully launched a static website on Amazon S3, providing a fast, reliable, and secure online presence. The project demonstrated expertise in 
+cloud-based web hosting, DNS management, and content delivery optimization.
