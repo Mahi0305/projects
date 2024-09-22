@@ -1,4 +1,3 @@
-use mahi;
 create table tbl_borrower (borrower_cardNo int auto_increment primary key,borrower_borrowerName varchar(50),borrower_borrowerAddress varchar(100),borrower_borrowerPhone bigint);
 create table tbl_library_branch(library_branch_BranchID int auto_increment primary key,library_branch_BranchName varchar(50),library_branch_BranchAddress varchar(100));
 create table tbl_publisher(publisher_PublisherName varchar(50) primary key,publisher_PublisherAddress varchar(100),publisher_PublisherPhone bigint);
